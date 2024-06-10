@@ -1,0 +1,7 @@
+.write-text-button, 
+.import-files-button{
+  font-size: 14px;
+  border-radius: 7px;
+  border-width: 0px;
+  cursor: pointer;
+}

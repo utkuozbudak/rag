@@ -1,0 +1,44 @@
+html, body {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+}
+
+.main-screen {
+  display: grid;
+  grid-template-columns: 1.1fr 4fr;
+  column-gap: 0px;
+  height: 100vh;
+}
+
+.left-panel, 
+.right-panel {
+  height: 100%;
+  display: flex;
+  /* align-items: center; Center vertically */
+  justify-content: center;
+}
+
+.left-panel {
+  background-color: lightblue;
+  flex-direction: column;
+}
+
+.right-panel {
+  background-color:lightpink;
+}
+
+.input-panel {
+  background-color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+  flex: 0.5;
+}
+
+.file-listing-panel {
+  background-color: white;
+  flex: 5;
+}
+

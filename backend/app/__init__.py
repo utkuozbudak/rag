@@ -1,7 +1,7 @@
-from flask import Flask, render_template
+from flask import Flask
+from .routes import init_routes
 
 def create_app():
   app = Flask(__name__)
-  from .routes import init_routes
   init_routes(app)
   return app
